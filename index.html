@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SW Toolbox App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body>
+    <my-app></my-app>
+    <script>
+      navigator.serviceWorker.register('service-worker.js');
+    </script>
+    <script src="/scripts/my-app.js"></script>
+  </body>
+</html>
